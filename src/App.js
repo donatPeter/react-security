@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { EscapeInput, DangerousHTML, UserHref } from './components';
+import { EscapeInput, DangerousHTML, UserHref, Eval } from './components';
 
 
 class App extends Component {
@@ -14,6 +14,8 @@ class App extends Component {
         <DangerousHTML />
         <hr />
         <UserHref />
+        <hr />
+        <Eval />
       </div>
     );
   }
